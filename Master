@@ -1,0 +1,14 @@
+# prod-of-two-nos
+3 program on c
+#include<stdio.h>
+int main()
+{
+int a ,b , prod;
+printf("enter the first number \n");
+scanf("%d",&a);
+printf("Enter the second number \n");
+scanf("%d",&b);
+prod=a*b;
+printf("product is %d",prod);
+return(0);
+}
